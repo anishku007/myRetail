@@ -60,7 +60,7 @@
     mock api: https://17d809a3-b340-4c37-9aed-9fbee30ab7af.mock.pstmn.io/v2/price
 **Sample:**
 **Request:**
-  GET  http://localhost:8002/myRetail/products/13860428
+  POST  http://localhost:8002/myRetail/products/13860428
 
   Content-Type: application/json
 
@@ -72,7 +72,7 @@
   This Rest Service is used to update the price of an existing product in H2 db
 
   **Sample:**
-  POSt http://localhost:8002/myRetail/products/13860428
+  PUT http://localhost:8002/myRetail/products/13860428
   Content-Type: application/json
 
   **Request:**
